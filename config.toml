@@ -1,0 +1,14 @@
+baseURL = 'https://ninepointeightgame.com/'
+languageCode = 'en-us'
+title = 'Coding Qilin'
+theme = "PaperMod"
+
+
+[params.profileMode]
+enabled = true
+title = "Welcome to the Coding Qilin"
+subtitle = "A new blog site under construction. All posts from NinePointEightGame will be reposted shortly, along with some new ones."
+imageUrl = "https://cdn.midjourney.com/c1f9bd07-55ec-478a-9e61-3b4819ab7e80/0_2.png"
+imageTitle = "A technogoth qilin under a waterfall in space "
+imageWidth = 240 # custom size
+imageHeight = 240 # custom size
