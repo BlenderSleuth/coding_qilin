@@ -46,7 +46,7 @@ I used a `FName` variable called `RootBoneName` with default value ‘root’ to
 This modifier will only work on Root Motion animations because it takes the difference between the initial and final positions of the root bone and dividing by the total time of the animation (You can still use normal in-place animations for actually animating the character though). If you don’t use Root Motion animations the speed will be zero, not particularly helpful.
 To use this freshly minted code, go to a root motion animation and open the Animation Modifiers window:
 
-![ApplyAnimModifier](/satisfying_character_movement/ApplyAnimModifier.png)
+![ApplyAnimModifier](/satisfying_character_movement/ApplyAnimModifier.png#center)
 
 Click `Add Modifier` and `Apply All Modifiers`. If you then check the output log you’ll find the average speed of the animation. Too easy!
 
