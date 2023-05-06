@@ -1,0 +1,52 @@
+baseURL: 'https://ninepointeightgame.com/'
+languageCode: 'en-us'
+title: 'Coding Qilin'
+theme: ["hugo-video", "PaperMod"]
+
+params:
+  homePage:
+    enabled : true
+    title : "Welcome to the Coding Qilin"
+    content : "A new blog site under construction. All posts from NinePointEightGame will be reposted shortly, along with some new ones."
+
+# imageUrl : "https://cdn.midjourney.com/c1f9bd07-55ec-478a-9e61-3b4819ab7e80/0_2.png"
+# imageTitle : "A technogoth qilin under a waterfall in space "
+# imageWidth : 240 # custom size
+# imageHeight : 240 # custom size
+
+  assets:
+    disableHLJS: true
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    style: catppuccin-mocha
+
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    noHl: false
+    tabWidth: 4
+
+module:
+  mounts:
+  - source: content
+    target: content
+  - excludeFiles: /**.psd
+    source: static
+    target: static
+  - source: layouts
+    target: layouts
+  - source: data
+    target: data
+  - source: assets
+    target: assets
+  - source: i18n
+    target: i18n
+  - source: archetypes
+    target: archetypes
