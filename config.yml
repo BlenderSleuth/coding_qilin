@@ -1,4 +1,4 @@
-baseURL: 'https://ninepointeightgame.com/'
+baseURL: 'https://codingqilin.com/'
 languageCode: 'en-us'
 title: 'Coding Qilin'
 theme: ["hugo-video", "PaperMod"]
