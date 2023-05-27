@@ -2,7 +2,7 @@
 title: "Creating Moving Platforms with Directional Gravity in Unreal Engine"
 date: 2020-05-03
 description: "Implementing moving platforms in my custom Unreal gravity system."
-draft: true
+draft: false
 ---
 
 ## Why is directional gravity so difficult? 

@@ -1,7 +1,7 @@
 ---
 title: "The Journey to Satisfying Character Movement in Unreal Engine"
 date: 2020-08-17
-draft: true
+draft: false
 ---
 
 Character movement that serves gameplay is a crucial feature to get right for any game, but it’s also highly dependent on the type of game that you’re designing. For example, the primary mechanic of [Getting Over It](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/) is character movement - the tough controls combined with the unrelenting landscape give the game its distinctive ‘feel’. ‘Feel’ is difficult to define, but to me it’s the emotions the designer wants the player to experience. This is affected by everything - ranging from how the UI is laid out to how deep the lore of the world is, so it’s too much to fit into one blog post. I will just look at this one aspect, character movement, here.

@@ -1,7 +1,7 @@
 ---
 title: "Building Gravity for 3 Dimensions"
 date: 2020-04-06
-draft: true
+draft: false
 ---
 
 One of my favourite video games as a child was Super Mario Galaxy. It was my first 'real' video game, played on the Wii, and I was enthralled by the clever puzzles and levels Mario navigated with impressive jumps and flips over lava and quicksand.

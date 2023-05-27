@@ -5,27 +5,45 @@ theme: ["hugo-video", "PaperMod"]
 
 params:
   homeInfoParams:
-    title : "Welcome to the Coding Qilin"
-    content : "A new blog site under construction."
-
-# imageUrl : "https://cdn.midjourney.com/c1f9bd07-55ec-478a-9e61-3b4819ab7e80/0_2.png"
-# imageTitle : "A technogoth qilin under a waterfall in space "
-# imageWidth : 240 # custom size
-# imageHeight : 240 # custom size
+    title: "Welcome to the Coding Qilin"
+    content: "A new blog site under construction."
+  socialIcons: 
+      - name: "github"
+        url: "https://github.com/BlenderSleuth"
+      - name: "twitter"
+        url: "https://twitter.com/Blendersleuth"
+      - name: "discord"
+        url: "https://discordapp.com/users/BlenderSleuth#9541"
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/ben-sutherland-a9a8b21a5/"
 
   assets:
+    favicon: "favicon/favicon.ico"
+    favicon16x16:  "favicon/favicon-16x16.png"
+    favicon32x32:  "favicon/favicon-32x32.png"
+    apple_touch_icon:  "favicon/apple-touch-icon.png"
     disableHLJS: true
 
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-  # comments: true
-  # https://gohugo.io/content-management/comments/, https://utteranc.es/
+  ShowShareButtons: true
+  comments: true
+
+menu:
+  main:
+    - name: Search
+      pageRef: /search
+      pre: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 28 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      weight: 10
 
 outputs:
-    home:
-        - HTML
-        - JSON
+  home:
+      - HTML
+      - JSON
 
 markup:
   highlight:

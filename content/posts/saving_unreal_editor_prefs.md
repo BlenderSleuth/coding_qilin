@@ -2,7 +2,7 @@
 title: "Quick Tip: How to save default Unreal Editor Preferences "
 date: 2020-07-23
 description: "Usually, Unreal Editor settings are not persistent between projects - every experimental test project, every new game jam will reset back to default settings. How can we make our favourite settings the default?"
-draft: true
+draft: false
 ---
 
 Once you become a bit more comfortable working in Unreal Engine, you might find that the default Unreal Editor settings are not to your liking. They're easy enough to change in the editor preferences menu{{< super >}}[1]({{< relref "saving_unreal_editor_prefs#Ref1">}}){{< /super >}}:

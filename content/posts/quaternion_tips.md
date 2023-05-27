@@ -1,7 +1,7 @@
 ---
 title: "Quick Quaternion Tips"
 date: 2020-05-07
-draft: true
+draft: false
 description: "To many developers, quaternions are black magic. In this post I unlock the wonderful world of perfect rotation control."
 ---
 
